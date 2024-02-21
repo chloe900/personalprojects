@@ -72,7 +72,7 @@ nav ul li a:hover::after {
 }
 
 #about {
-    background-image: url(images/sample\ \(2\).jpeg);
+    background-image: url(sample\ \(2\).jpeg);
     image-resolution: 300dpi;
     background-size:cover;
     margin-top: 50px;
