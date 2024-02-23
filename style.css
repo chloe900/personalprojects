@@ -11,7 +11,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/me2.png);
+    background-image: url(me2.png);
     border-radius: 10px;
     background-position: right;
     background-size: 600px;
@@ -72,7 +72,7 @@ nav ul li a:hover::after {
 }
 
 #about {
-    background-image: url(images/sample\ \(2\).jpeg);
+    background-image: url(sample\ \(2\).jpeg);
     image-resolution: 300dpi;
     background-size:cover;
     margin-top: 50px;
