@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(pink, lightgrey,pink, mistyrose, hotpink);
+    background: linear-gradient(pink, mistyrose,lightgrey, mistyrose, hotpink);
     color: #fff;
 }
 #header{
@@ -18,6 +18,20 @@ body{
     background-repeat: no-repeat;
     /*order: 5px solid palevioletred;*/
 }
+
+body::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Change the alpha value (0.5) to adjust the transparency */
+    border-radius: 10px;
+}
+
+
+
+
 
 .container{
     padding: 10px ;
@@ -77,7 +91,7 @@ nav ul li a:hover::after {
     image-resolution: 300dpi;
     background-size:cover;
     margin-top: 50px;
-    height: 600px;
+    height: 650px;
     background-repeat: no-repeat;
     border-radius: 10px;
     padding: 80px 0;
@@ -140,6 +154,10 @@ nav ul li a:hover::after {
 
 .col2{
     flex-basis: 70%;
+}
+
+#subtTitle{
+    margin-top: 50px;
 }
 
 .sub-title{
@@ -263,6 +281,10 @@ nav ul li a:hover::after {
 
 #projects{
     padding: 50px 0;
+}
+
+.interestgroup{
+    height: 300px;
 }
 
 .work-list {
