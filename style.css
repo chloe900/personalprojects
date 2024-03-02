@@ -11,7 +11,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/me2.png);
+    background-image: url( me2.png);
     border-radius: 10px;
     background-position: right;
     background-size: 600px;
@@ -87,7 +87,7 @@ nav ul li a:hover::after {
 }
 
 #about {
-    background-image: url(images/sample\ \(2\).jpeg);
+    background-image: url( sample\ \(2\).jpeg);
     image-resolution: 300dpi;
     background-size:cover;
     margin-top: 50px;
@@ -485,7 +485,7 @@ form .btn2 {
 }
 
 #contact{
-    background-image:url(images/bottom1.png);
+    background-image:url( bottom1.png);
     background-size:100%;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -501,7 +501,7 @@ nav .fa-solid{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/me2_resized\ \(2\).png);
+        background-image: url( me2_resized\ \(2\).png);
         background-position: right;
        background-size: 400px;
         background-repeat: no-repeat;
@@ -635,7 +635,7 @@ nav .fa-solid{
     
 
     #about {
-        background-image: url(images/sample\ \(2\).jpeg);
+        background-image: url( sample\ \(2\).jpeg);
         image-resolution: 300dpi;
         background-size:cover;
         margin-top: 50px;
